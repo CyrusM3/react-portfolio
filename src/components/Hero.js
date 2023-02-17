@@ -11,12 +11,10 @@ const Hero = () => {
               <div className='home__img'>
                 <img src={heroImage} alt='img' />
               </div>
-
               <h1 className='home__title'>Ali Ebrahimi</h1>
               <span className='home__profession'>
                 Junior Frontend Developer
               </span>
-
               <div className='home__social'>
                 {socialLinks.map((link) => {
                   const { id, href, icon } = link;
