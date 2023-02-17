@@ -93,7 +93,7 @@ export const projects = [
   {
     id: 3,
     image: work3,
-    site: 'https://www.headandleg.com/',
+    site: 'https://guessup.netlify.app/',
     icon: 'bx bx-link-alt',
     code: 'https://github.com/CyrusM3/gussingNumber1.4',
     github: 'bx bxl-github',
