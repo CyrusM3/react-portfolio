@@ -37,8 +37,8 @@ const Hero = () => {
               </div>
 
               <a
-                download=''
-                href='pdf/Ali_Ebrahimi_resume.pdf'
+                download='resume.pdf'
+                href='resume.pdf'
                 className='button home__button'
               >
                 Download Resume
