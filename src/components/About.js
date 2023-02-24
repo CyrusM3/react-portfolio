@@ -9,12 +9,12 @@ const About = () => {
         <div className='about__container bd-grid'>
           <div className='about__data'>
             <p className='about__text'>
-              Hi, I'm a frontend developer located in Canada. As a front-end
-              developer, I possess a strong understanding of web development
-              technologies, with a particular emphasis on HTML, CSS, and
-              JavaScript. I have a keen eye for design and are able to transform
-              mockups and wireframes into engaging, intuitive user interfaces
-              that meet client needs and drive user engagement.
+              Hi, I'm a frontend developer located in Canada. As a developer, I
+              possess a strong understanding of web development technologies,
+              with a particular emphasis on HTML, CSS, and JavaScript. I have a
+              keen eye for design and are able to transform mockups and
+              wireframes into engaging, intuitive user interfaces that meet
+              client needs and drive user engagement.
             </p>
 
             <p>
