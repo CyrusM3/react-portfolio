@@ -55,7 +55,7 @@ const Contact = () => {
 
             <textarea
               name='message'
-              id=''
+              id='message'
               cols='0'
               rows='10'
               placeholder='Message'

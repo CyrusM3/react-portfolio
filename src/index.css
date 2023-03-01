@@ -456,6 +456,10 @@ img {
   border-radius: 0.5rem;
 }
 
+textarea.contact__input {
+  resize: none;
+}
+
 .contact ::placeholder {
   color: var(--first-color-dark);
   font-family: var(--body-font);
