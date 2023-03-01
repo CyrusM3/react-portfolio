@@ -17,9 +17,8 @@ const Hero = () => {
                 {socialLinks.map((link) => {
                   const { id, href, icon } = link;
                   return (
-                    <>
+                    <div key={id}>
                       <a
-                        key={id}
                         href={href}
                         target='_blank'
                         rel='noreferrer'
@@ -27,7 +26,7 @@ const Hero = () => {
                       >
                         <i className={icon}></i>
                       </a>
-                    </>
+                    </div>
                   );
                 })}
               </div>
