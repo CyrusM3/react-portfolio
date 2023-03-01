@@ -17,16 +17,15 @@ const Hero = () => {
                 {socialLinks.map((link) => {
                   const { id, href, icon } = link;
                   return (
-                    <div key={id}>
-                      <a
-                        href={href}
-                        target='_blank'
-                        rel='noreferrer'
-                        className='home__social-link'
-                      >
-                        <i className={icon}></i>
-                      </a>
-                    </div>
+                    <a
+                      key={id}
+                      href={href}
+                      target='_blank'
+                      rel='noreferrer'
+                      className='home__social-link'
+                    >
+                      <i className={icon}></i>
+                    </a>
                   );
                 })}
               </div>

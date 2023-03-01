@@ -3,7 +3,6 @@ import { socialLinks } from '../data';
 const Footer = () => {
   return (
     <>
-      {' '}
       <footer className='footer section'>
         <div className='footer__container bd-grid'>
           <h1 className='footer__title'>Ali</h1>
