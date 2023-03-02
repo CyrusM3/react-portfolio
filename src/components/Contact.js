@@ -1,5 +1,31 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const successNotify = () =>
+  toast.success('Message Sent!', {
+    position: 'top-right',
+    autoClose: 2000,
+    hideProgressBar: true,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: 'light',
+  });
+
+const errorNotify = () =>
+  toast.error('Message failed!', {
+    position: 'top-right',
+    autoClose: 2000,
+    hideProgressBar: true,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: 'light',
+  });
 
 const Contact = () => {
   const form = useRef();
@@ -18,13 +44,16 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           e.target.reset();
+          successNotify();
           console.log('message sent');
         },
         (error) => {
+          errorNotify();
           console.log(error.text);
         }
       );
   };
+
   return (
     <>
       <section className='contact section' id='contact'>
@@ -37,12 +66,14 @@ const Contact = () => {
                 placeholder='Name'
                 className='contact__input'
                 name='user_name'
+                required
               />
               <input
                 type='email'
                 placeholder='Email'
                 className='contact__input'
                 name='user_email'
+                required
               />
             </div>
 
@@ -51,6 +82,7 @@ const Contact = () => {
               placeholder='Project'
               className='contact__input'
               name='user_project'
+              required
             />
 
             <textarea
@@ -60,13 +92,17 @@ const Contact = () => {
               rows='10'
               placeholder='Message'
               className='contact__input'
+              required
             ></textarea>
 
-            <input
+            <button
               type='submit'
               value='Send Message'
               className='button contact__button'
-            />
+            >
+              Send Message
+            </button>
+            <ToastContainer />
           </form>
 
           <div className='contact__info'>
