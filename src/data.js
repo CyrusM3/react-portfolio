@@ -67,7 +67,7 @@ export const contactInfo = [
   {
     id: 3,
     icon: 'bx bx-envelope ',
-    info: 'alx.ebrahimi@gmail.com',
+    info: 'info@aliebrahimi.dev',
   },
 ];
 
