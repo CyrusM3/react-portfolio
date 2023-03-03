@@ -1,8 +1,8 @@
 import work1 from './images/flags.jpg';
 import work2 from './images/calculator.jpg';
 import work3 from './images/guessNumber.jpg';
-import work4 from './images/hotel.jpg';
-import work5 from './images/photographer.jpg';
+import work4 from './images/notes.jpg';
+import work5 from './images/hex.jpg';
 import work6 from './images/game.jpg';
 
 export const pageLinks = [
@@ -79,7 +79,7 @@ export const projects = [
     icon: 'bx bx-link-alt',
     code: 'https://github.com/CyrusM3/countries-rest',
     github: 'bx bxl-github',
-    title: 'Work 1',
+    title: 'Flags Countries',
   },
   {
     id: 2,
@@ -88,7 +88,7 @@ export const projects = [
     icon: 'bx bx-link-alt',
     code: 'https://github.com/CyrusM3/calculator-app',
     github: 'bx bxl-github',
-    title: 'Work 2',
+    title: 'Calculator',
   },
   {
     id: 3,
@@ -97,25 +97,25 @@ export const projects = [
     icon: 'bx bx-link-alt',
     code: 'https://github.com/CyrusM3/gussingNumber1.4',
     github: 'bx bxl-github',
-    title: 'Work 3',
+    title: 'Guess Game',
   },
   {
     id: 4,
     image: work4,
-    site: 'https://shiraz-hotel.netlify.app/',
+    site: 'https://react-purchase-list.netlify.app/',
     icon: 'bx bx-link-alt',
-    code: 'https://github.com/CyrusM3/Shiraz-Hotel',
+    code: 'https://github.com/CyrusM3/react-shoppingList-ver1',
     github: 'bx bxl-github',
-    title: 'Work 4',
+    title: 'Shopping List',
   },
   {
     id: 5,
     image: work5,
-    site: 'https://portfolio-showcases.netlify.app/',
+    site: 'https://hexa-color-enerator.netlify.app/',
     icon: 'bx bx-link-alt',
-    code: 'https://github.com/CyrusM3/portfolio_website',
+    code: 'https://github.com/CyrusM3/react-color-generator',
     github: 'bx bxl-github',
-    title: 'Work 5',
+    title: 'Hex Color Generator',
   },
   {
     id: 6,
@@ -124,6 +124,6 @@ export const projects = [
     icon: 'bx bx-link-alt',
     code: 'https://github.com/CyrusM3/Dice-Game1.2',
     github: 'bx bxl-github',
-    title: 'Work 6',
+    title: 'Dice Game',
   },
 ];
