@@ -1,4 +1,4 @@
-import heroImage from '../images/ali.png';
+// import heroImage from '../images/ali.png';
 import { contactInfo } from '../data.js';
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
               wide range of devices.
             </p>
 
-            <p>
+            <p className='about__text'>
               Additionally, I have experience with frontend framework such as
               React, as well as experience with backend technologies like
               Node.js. I am passionate about web development and enjoy staying
@@ -33,7 +33,7 @@ const About = () => {
           </div>
 
           <div>
-            <div className='about__information'>
+            {/* <div className='about__information'>
               <h3 className='about__information-title'>Information</h3>
               {contactInfo.map((information) => {
                 const { id, icon, info } = information;
@@ -44,10 +44,10 @@ const About = () => {
                   </div>
                 );
               })}
-            </div>
+            </div> */}
 
             <div className='about__information'>
-              <h3 className='about__information-title'>Experience</h3>
+              <h2 className='about__information-title'>Experience</h2>
 
               <div className='about__information-data'>
                 <i className='bx bx-medal about__information-icon'></i>
