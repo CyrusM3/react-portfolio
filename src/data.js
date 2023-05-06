@@ -1,4 +1,4 @@
-import work1 from './images/flags.jpg';
+import work1 from './images/gadgets.jpg';
 import work2 from './images/calculator.jpg';
 import work3 from './images/guessNumber.jpg';
 import work4 from './images/notes.jpg';
@@ -75,11 +75,11 @@ export const projects = [
   {
     id: 1,
     image: work1,
-    site: 'https://countries-appdetails.netlify.app/',
+    site: 'https://react-comfy-onlinestore.netlify.app/',
     icon: 'bx bx-link-alt',
-    code: 'https://github.com/CyrusM3/countries-rest',
+    code: 'https://github.com/CyrusM3/react-e-commerce-comfy-Smoth-store',
     github: 'bx bxl-github',
-    title: 'Flags Countries',
+    title: 'Gadgets E-commerce',
   },
   {
     id: 2,
