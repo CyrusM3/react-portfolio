@@ -274,14 +274,14 @@ img {
 
 /* ===== SKILLS =====*/
 .skills__container {
-  row-gap: 2rem;
+  /* row-gap: 2rem; */
 }
 
 .skills__subtitle {
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--first-color-dark);
-  margin-bottom: var(--mb-2);
+  /* margin-bottom: var(--mb-2); */
 }
 
 .skills__data {
@@ -304,35 +304,43 @@ img {
 }
 
 .skills__html {
-  width: 80%;
+  width: 100%;
 }
 
 .skills__css {
-  width: 70%;
+  width: 100%;
 }
 
 .skills__js {
-  width: 60%;
+  width: 100%;
 }
 
 .skills__react {
-  width: 30%;
+  width: 100%;
 }
 
 .skills__php {
-  width: 65%;
+  width: 100%;
 }
 
 .skills__node {
-  width: 40%;
+  width: 100%;
 }
 
-.skills__firebase {
-  width: 45%;
+.skills__mongoDB {
+  width: 100%;
 }
 
-.skills__java {
-  width: 30%;
+.skills__mySQL {
+  width: 100%;
+}
+
+.skills__tailwing {
+  width: 100%;
+}
+
+.skills__playwright {
+  width: 100%;
 }
 
 /* ===== EDUCATION =====*/

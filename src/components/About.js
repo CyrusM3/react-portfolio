@@ -9,19 +9,27 @@ const About = () => {
         <div className='about__container bd-grid'>
           <div className='about__data'>
             <p className='about__text'>
-              Hi, I'm a frontend developer located in Canada. As a developer, I
-              possess a strong understanding of web development technologies,
-              with a particular emphasis on HTML, CSS, and JavaScript. I have a
-              keen eye for design and are able to transform mockups and
-              wireframes into engaging, intuitive user interfaces that meet
-              client needs and drive user engagement.
+              Hi, I'm a frontend developer located in Vancouver Canada. As a
+              developer, I possess a strong understanding of web development
+              technologies, with a particular emphasis on HTML, CSS, and
+              JavaScript. I have a keen eye for design and are able to transform
+              mockups and wireframes into engaging, intuitive user interfaces
+              that meet client needs and drive user engagement. My experience as
+              a frontend developer has enabled me to develop strong skills in
+              responsive design and mobile-first development, allowing me to
+              create web applications that are accessible and user-friendly on a
+              wide range of devices.
             </p>
 
             <p>
-              Well-organized person, problem solver, independent employee with
-              high attention to details.
+              Additionally, I have experience with frontend framework such as
+              React, as well as experience with backend technologies like
+              Node.js. I am passionate about web development and enjoy staying
+              up-to-date with the latest trends and technologies in the
+              industry.Overall, my passion for web development, and technical
+              expertise, make me a valuable asset to any team.
             </p>
-            <img src={heroImage} alt='img' className='about__img' />
+            {/* <img src={heroImage} alt='img' className='about__img' /> */}
           </div>
 
           <div>
