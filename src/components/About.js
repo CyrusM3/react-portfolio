@@ -1,5 +1,5 @@
 // import heroImage from '../images/ali.png';
-import { contactInfo } from '../data.js';
+// import { contactInfo } from '../data.js';
 
 const About = () => {
   return (
