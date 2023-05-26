@@ -29,10 +29,10 @@ const About = () => {
               industry.Overall, my passion for web development, and technical
               expertise, make me a valuable asset to any team.
             </p>
-         
           </div>
 
           <div>
+            {/* will be removed later */}
             {/* <div className='about__information'>
               <h3 className='about__information-title'>Information</h3>
               {contactInfo.map((information) => {
