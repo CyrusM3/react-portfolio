@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7c00ab5.css",
+    "main.js": "/static/js/main.482076cb.js",
+    "static/media/gadgets.jpg": "/static/media/gadgets.7f1495f0e1381db6697a.jpg",
+    "static/media/ali.png": "/static/media/ali.e1456a9095f34f3b4877.png",
+    "static/media/guessNumber.jpg": "/static/media/guessNumber.aae8b1b1f4a7ec792b0e.jpg",
+    "static/media/notes.jpg": "/static/media/notes.518f1476806edb545cd0.jpg",
+    "static/media/game.jpg": "/static/media/game.1b6e157d4551b302c835.jpg",
+    "static/media/hex.jpg": "/static/media/hex.490a0d584fd5eec53b8c.jpg",
+    "static/media/jobTracker.jpg": "/static/media/jobTracker.ebffd17c724d447a3518.jpg",
+    "index.html": "/index.html",
+    "main.b7c00ab5.css.map": "/static/css/main.b7c00ab5.css.map",
+    "main.482076cb.js.map": "/static/js/main.482076cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7c00ab5.css",
+    "static/js/main.482076cb.js"
+  ]
+}
