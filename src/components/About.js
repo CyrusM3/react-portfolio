@@ -32,7 +32,7 @@ const About = () => {
           </div>
 
           <div>
-            {/* will be removed later */}
+            {/* will be removed */}
             {/* <div className='about__information'>
               <h3 className='about__information-title'>Information</h3>
               {contactInfo.map((information) => {
