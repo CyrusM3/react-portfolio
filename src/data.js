@@ -1,5 +1,5 @@
 import work1 from './images/gadgets.jpg';
-import work2 from './images/calculator.jpg';
+import work2 from './images/jobTracker.jpg';
 import work3 from './images/guessNumber.jpg';
 import work4 from './images/notes.jpg';
 import work5 from './images/hex.jpg';
@@ -84,11 +84,11 @@ export const projects = [
   {
     id: 2,
     image: work2,
-    site: 'https://calculatorfinite.netlify.app/',
+    site: 'https://job-management-tracker.netlify.app/',
     icon: 'bx bx-link-alt',
-    code: 'https://github.com/CyrusM3/calculator-app',
+    code: 'https://github.com/CyrusM3/jobster',
     github: 'bx bxl-github',
-    title: 'Calculator',
+    title: 'Job Tracker App ',
   },
   {
     id: 3,
