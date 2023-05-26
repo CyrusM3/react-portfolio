@@ -29,7 +29,7 @@ const About = () => {
               industry.Overall, my passion for web development, and technical
               expertise, make me a valuable asset to any team.
             </p>
-            {/* <img src={heroImage} alt='img' className='about__img' /> */}
+         
           </div>
 
           <div>
