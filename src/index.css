@@ -277,9 +277,9 @@ img {
 }
 
 /* ===== SKILLS =====*/
-.skills__container {
+/* .skills__container {
   row-gap: 2rem;
-}
+} */
 
 .skills__subtitle {
   font-size: var(--h3-font-size);
